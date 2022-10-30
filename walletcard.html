@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <style>.dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      /* .products{
+
+      } */
+      .footer {
+  
+  width: 100%;
+  background-color: rgb(52,58,64);
+  color: white;
+  text-align: center;
+}
+
+      .nav{
+        margin-bottom: 40px;
+      }
+      .head{
+        text-align: center; 
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: pink;
+      }
+      @media (min-width: 900px) {
+  .products { grid-template-columns: repeat(3, 1fr);}
+
+}
+      
+      </style>
+
+
+
+<!-- navbar -->
+<div class="nav" style="background-color: rgb(255, 226, 231) ">
+
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+           <img width="50px" src="pic/logo.png" alt="">
+            <span class="ml-3 text-xl">Instagiftify</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a href="/" class="mr-5 hover:text-gray-900">Home</a>
+            <a class="mr-5 hover:text-gray-900">
+            <div class="dropdown">
+                <button class="dropbtn">Products 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/walletcard.html">Wallet Cards</a>
+                  <a href="/photoframe.html">Illustrated Photo Frames</a>
+                  <a href="/lovebook.html">Love Books</a>
+                  <a href="/greetingcard.html">Greeting Cards</a>
+                </div>
+              </div> 
+            </a>
+          
+            <a class="mr-5 hover:text-gray-900">Contact</a>
+            
+          </nav>
+         
+        </div>
+      </header>
+
+    </div>
+
+
+
+    <!-- Products -->
+<div  class="head">
+    <h3><b> DETAILED ILLUSTRATED WALLET CARDS</b> </h3>
+  </div>
+
+
+
+    <div class="products">
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Detailed</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">1 person photo</h2>
+                <p class="mt-1">Rs. 450</p>
+                <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                </a>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Detailed</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">2 person photo</h2>
+                <p class="mt-1">Rs. 550</p>
+                <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                </a>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Detailed</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">3 person photo</h2>
+                <p class="mt-1">Rs. 650</p>
+                <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                </a>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Detailed</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">4 person photo</h2>
+                <p class="mt-1">Rs. 750</p>
+                <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                </a>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Detailed</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">5 person photo</h2>
+                <p class="mt-1">Rs. 850</p>
+                <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                </a>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Detailed</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">6 person photo</h2>
+                <p class="mt-1">Rs. 950</p>
+                <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                </a>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Detailed</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">7 person photo</h2>
+                <p class="mt-1">Rs. 1050</p>
+                <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                </a>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Detailed</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">8 person photo</h2>
+                <p class="mt-1">Rs. 1150</p>
+                <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+
+    <div  class="head">
+      <h3><b> MINIMAL ILLUSTRATED WALLET CARDS</b> </h3>
+    </div>
+
+    <div class="products">
+      <section class="text-gray-600 body-font">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Minimal</h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">1 person photo</h2>
+                  <p class="mt-1">Rs. 350</p>
+                  <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                  <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                </a>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261">
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Minimal</h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">2 person photo</h2>
+                  <p class="mt-1">Rs. 450</p>
+                  <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                    <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                  </a>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262">
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Minimal</h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">3 person photo</h2>
+                  <p class="mt-1">Rs. 550</p>
+                  <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                    <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                  </a>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263">
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Minimal</h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">4 person photo</h2>
+                  <p class="mt-1">Rs. 650</p>
+                  <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                    <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                  </a>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Minimal</h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">5 person photo</h2>
+                  <p class="mt-1">Rs. 750</p>
+                  <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                    <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                  </a>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Minimal</h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">6 person photo</h2>
+                  <p class="mt-1">Rs. 850</p>
+                  <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                    <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                  </a>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267">
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Minimal</h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">7 person photo</h2>
+                  <p class="mt-1">Rs. 950</p>
+                  <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                    <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                  </a>
+                </div>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+                </a>
+                <div class="mt-4">
+                  <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Minimal</h3>
+                  <h2 class="text-gray-900 title-font text-lg font-medium">8 person photo</h2>
+                  <p class="mt-1">Rs. 1050</p>
+                  <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                    <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+      <div  class="head">
+        <h3><b> NON ILLUSTRATED WALLET CARDS</b> </h3>
+      </div>
+  
+      <div class="products">
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Non illustrated</h3>
+                    
+                    <p class="mt-1">Rs. 350</p>
+                    <a href="https://forms.gle/83BVbmU5R6SZ8ubT9" target="_blank">
+                    <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Place Order</button>
+                  </a>
+                  </div>
+                </div>
+                
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+
+
+<!-- footer -->
+<div class="footer">
+  <p>© 2022 Instagiftify.All rights reserved.</p>
+</div>
+
+
+</body>
+</html>
